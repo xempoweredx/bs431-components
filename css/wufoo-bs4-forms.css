@@ -387,13 +387,13 @@ html{background-image:none;background-color:transparent;}
     margin-bottom: 1rem;
 }
 
-.form-group label {
+.wufoo .form-group label {
     display: inline-block;
-    margin-bottom: .5rem;
-    font-size: 1rem;
+    margin-bottom: .5rem !important;
+    font-size: 1rem !important;
     font-family: inherit;
-    color: #212529;
-    font-weight: normal;
+    color: #212529 !important;
+    font-weight: normal !important;
 }
 
 .form-control,
