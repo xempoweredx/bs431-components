@@ -349,7 +349,7 @@ html{background-image:none;background-color:transparent !important;}
 #logo{background-image:none;background-color:transparent;}
 #container{background:transparent !important;}
 .wufoo input.text, .wufoo textarea.textarea{background:transparent;}
-.wufoo .focused{background:transparent !important;}
+.wufoo .form-group .focused, .wufoo .form-group li.focused{background:transparent !important;}
 .wufoo .instruct{background-color:#F5F5F5;}
 
 /* Borders */
