@@ -334,8 +334,53 @@ template {
 [hidden] {
   display: none !important;
 }
-/*# sourceMappingURL=bootstrap-reboot.css.map */
 
+/* - - - Default - - - */
+
+/* Logo */
+#logo a {background-image:url('http://wufoo.com/images/themes/logos/shark.png'); min-height:0; height:40px}
+* html #logo a {/* IE6 png Support */
+	background-image: none;
+	filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="http://wufoo.com/images/themes/logos/shark.png", sizingMethod="crop");
+}
+
+/* Backgrounds */
+html{background-image:none;background-color:transparent;}
+#logo{background-image:none;background-color:transparent;}
+#container{background:transparent;}
+.wufoo input.text, .wufoo textarea.textarea{background:transparent;}
+.wufoo .focused{background:#FFF7C0;}
+.wufoo .instruct{background-color:#F5F5F5;}
+
+/* Borders */
+#container{border:none;}
+.wufoo .info{border-bottom:1px dotted #CCCCCC;}
+.wufoo .instruct{border:1px solid #e6e6e6;}
+
+/* Typography */
+.wufoo .info h2{font-size:1.75rem;font-family:inherit;color:#212529;}
+.wufoo .info div{font-size:1rem;font-family:inherit;color:#212529;}
+.wufoo .section h3{font-size:1.5rem;font-family:inherit;background:transparent;color:#212529;}
+.wufoo .section div{font-size:1rem;font-family:inherit;color:#212529;}
+.wufoo label.desc, .wufoo legend.desc{font-size:1rem;font-family:inherit;color:#212529;}
+.wufoo li div, .wufoo li div label, .wufoo li span label{font-family:inherit;color:#212529;}
+.wufoo input.text, .wufoo textarea.textarea, .wufoo select.select, .wufoo label.choice{
+	display: block;
+    width: 100%;
+    height: calc(1.5em + .75rem + 2px);
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+    background-color: #fff;
+    background-clip: padding-box;
+    border: 1px solid #ced4da;
+    border-radius: .25rem;
+    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+.wufoo label.choice{color:#212529;}
+.wufoo .instruct{font-size:80%;font-family:inherit;color:#6c757d;}
 
 
 .form-group {
@@ -364,11 +409,11 @@ template {
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
-.form-group input::placeholder {
+.wufoo .form-group input::placeholder {
     color: #6c757d;
     opacity: 1;
 }
-.form-group input::-webkit-input-placeholder {
+.wufoo .form-group input::-webkit-input-placeholder {
     color: #6c757d;
     opacity: 1;
 }
