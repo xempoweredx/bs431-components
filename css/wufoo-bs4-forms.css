@@ -345,15 +345,15 @@ template {
 }
 
 /* Backgrounds */
-html{background-image:none;background-color:transparent;}
+html{background-image:none;background-color:transparent !important;}
 #logo{background-image:none;background-color:transparent;}
-#container{background:transparent;}
+#container{background:transparent !important;}
 .wufoo input.text, .wufoo textarea.textarea{background:transparent;}
-.wufoo .focused{background:#FFF7C0;}
+.wufoo .focused{background:transparent !important;}
 .wufoo .instruct{background-color:#F5F5F5;}
 
 /* Borders */
-#container{border:none;}
+#container{border:none !important;}
 .wufoo .info{border-bottom:1px dotted #CCCCCC;}
 .wufoo .instruct{border:1px solid #e6e6e6;}
 
@@ -369,10 +369,10 @@ html{background-image:none;background-color:transparent;}
     width: 100%;
     height: calc(1.5em + .75rem + 2px);
     padding: .375rem .75rem;
-    font-size: 1rem;
+    font-size: 1rem !important;
     font-weight: 400;
     line-height: 1.5;
-    color: #495057;
+    color: #495057 !important;
     background-color: #fff;
     background-clip: padding-box;
     border: 1px solid #ced4da;
@@ -383,8 +383,9 @@ html{background-image:none;background-color:transparent;}
 .wufoo .instruct{font-size:80%;font-family:inherit;color:#6c757d;}
 
 
-.form-group {
+.wufoo .form-group {
     margin-bottom: 1rem;
+    padding: 0 !important;
 }
 
 .wufoo .form-group label {
