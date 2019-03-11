@@ -379,6 +379,9 @@ html{background-image:none;background-color:transparent !important;}
     border-radius: .25rem;
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
+.wufoo textarea.textarea {
+	height: auto;
+}
 .wufoo label.choice{color:#212529;}
 .wufoo .instruct{font-size:80%;font-family:inherit;color:#6c757d;}
 
@@ -395,23 +398,6 @@ html{background-image:none;background-color:transparent !important;}
     font-family: inherit;
     color: #212529 !important;
     font-weight: normal !important;
-}
-
-.form-control,
-.form-group input {
-    display: block;
-    width: 100%;
-    height: calc(1.5em + .75rem + 2px);
-    padding: .375rem .75rem;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #495057;
-    background-color: #fff;
-    background-clip: padding-box;
-    border: 1px solid #ced4da;
-    border-radius: .25rem;
-    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 
 .wufoo .form-group input::placeholder {
