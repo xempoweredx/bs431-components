@@ -398,6 +398,12 @@ html{background-image:none;background-color:transparent !important;}
     font-family: inherit;
     color: #212529 !important;
     font-weight: normal !important;
+    padding: 0 !important;
+    line-height: 1 !important;
+}
+
+.wufoo .phone.form-group span>label {
+    display: none;
 }
 
 .wufoo .form-group input::placeholder {
