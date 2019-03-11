@@ -380,7 +380,7 @@ html{background-image:none;background-color:transparent !important;}
     transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
 }
 .wufoo textarea.textarea {
-	height: auto;
+	height: 5rem;
 }
 .wufoo label.choice{color:#212529;}
 .wufoo .instruct{font-size:80%;font-family:inherit;color:#6c757d;}
